@@ -1,0 +1,18 @@
+.CycleSection__grid {
+    background: beige;
+    height: auto;
+    margin-bottom: 25px;
+    line-height: 25px;
+    font-weight: normal;
+    lost-column: 1/1;
+}
+
+.CycleSection__grid p {
+    padding: 5px 15px 15px 15px;
+}
+
+@media (min-width: 500px) {
+    .CycleSection__grid div {
+        lost-column: 2/4 2;
+    }
+}

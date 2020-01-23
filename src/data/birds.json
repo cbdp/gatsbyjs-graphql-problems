@@ -1,0 +1,25 @@
+[
+      {
+         "name":"Python",
+         "image":"./green-parrot.jpg",
+         "type": [
+              "Nice"
+          ]
+
+      },
+      {
+         "name":"Pascal",
+         "image":"./blue-parrot.jpg",
+          "type": [
+              "Naughty"
+          ]
+
+      },
+      {
+         "name":"Ruby",
+         "image":"./red-parrot.jpg",
+         "type": [
+              "Nice", "Sweet"
+          ]
+      }
+]
