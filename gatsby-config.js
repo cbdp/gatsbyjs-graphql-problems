@@ -5,5 +5,26 @@
  */
 
 module.exports = {
-  /* Your site config here */
+    plugins: [
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/static/img/`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `json`,
+                path: `${__dirname}/src/data/`,
+            },
+        },
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        `gatsby-transformer-json`,
+        `gatsby-image`,
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-postcss`,
+    ],
 }
